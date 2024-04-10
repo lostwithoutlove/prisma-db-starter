@@ -1,3 +1,19 @@
+For from CWA repo in your github
+clone from your github to desktop
+
+1. npm install
+2.
+
+3. DB Provider - https://aiven.io/
+   #Steps
+4. Make an account with Aiven for MySQL and create a DB
+5. Add the Service URI at the DB_URL at .env file
+6. npx prisma generate
+7. Check deployment status and wait for it to turn from Rebuilding status to Running
+8. Wait for one successful event log with Aiven
+9. npx prisma db push
+10. npx prisma studio
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
